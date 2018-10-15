@@ -12,7 +12,7 @@ print("keys of dictionary is: ",l)
 """
 #Q.2- Create a dictionary and store student names and create nested dictionary to store the subject wise marks of every student.Print the marks of a given student from that dictionary for every subject.
 
-k1={"k1":{"maths":80,"science":76,"computer":67,"english":99},"k2":{"maths":74,"english":67,"thermo":45,"science":76},"k3":{"som":85,"maths":65,"ed":53,"electrical":78}}
+k1={"k1":{"maths":80,"science":78,"computer":67,"english":99},"k2":{"maths":74,"english":66,"thermo":45,"science":77},"k3":{"som":85,"maths":65,"ed":53,"electrical":78}}
 n=input("enter student name (a,b,c) to print marks: ")
 for i in k1:
     if n.lower()==i:
